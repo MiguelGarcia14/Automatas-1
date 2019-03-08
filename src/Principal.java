@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class Principal
 {
     public static void main (String [] args)
@@ -6,5 +8,7 @@ public class Principal
         System.out.println("Segunda prueba");
         
         System.out.println("Tercera prueba");
+
+        JOptionPane.showMessageDialog(null, "Cuarta prueba!");
     }
 }
